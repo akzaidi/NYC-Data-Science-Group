@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1410125143062.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AA82E130",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "pred.forest",
+        "contentUrl" : "content?title=pred.forest&file=991d462bd7d441dbac657e7a76efc337.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 2,
+        "totalObservations" : 9758,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

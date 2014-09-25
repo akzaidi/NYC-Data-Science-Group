@@ -1,0 +1,23 @@
+Welcome to the third NYC Data Wranglers Event!
+
+Please settle down at one of the available tables. Feel free to introduce yourself and work with others as a pair or a team, or start working on your own.
+
+The wifi network is:
+
+The wifi password is:
+
+To find the data for today's challenges go to this link: https://www.dropbox.com/sh/f9frolsr695np2y/AADz1UK-opgfgJOysXKEeuoba?dl=0
+
+You can find material from previous NYC Data Wranglers events, as well as a short introduction to data science resources and complete copies of various data science textbooks here:
+https://www.dropbox.com/sh/go83yk8b1qqwzit/AABwpLsOuGiIS54M8lCQQfd1a?dl=0
+
+---
+
+Challenge #1: Lending Club Data - Predict Loan Defaults
+
+Challenge #2: Brand Survey Data - Find similarities and differences in how people perceive company brands. 
+
+---
+
+During the course of the afternoon, I will do a few lectures to introduce data science for complete beginners. We'll discuss what data science is, what the different tools for performing data science are, and where to find resources to learn more.
+

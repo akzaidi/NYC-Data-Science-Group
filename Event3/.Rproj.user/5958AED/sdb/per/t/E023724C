@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1410125161942.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E023724C",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "as.numeric(pred.forest)",
+        "contentUrl" : "content?title=as.numeric(pred.forest)&file=fb1b72ec4a0b41fab63d72ac83324820.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 1,
+        "totalObservations" : 9758,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

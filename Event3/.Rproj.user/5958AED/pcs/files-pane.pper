@@ -1,0 +1,9 @@
+{
+    "path" : "D:/Dropbox/Projects/NYC Datascience Group/Event3/Lending Club Data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

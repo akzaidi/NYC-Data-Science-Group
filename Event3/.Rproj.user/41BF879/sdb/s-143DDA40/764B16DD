@@ -1,0 +1,15 @@
+{
+    "contents" : "source(\"../../../R/AZ Functions.R\")\n## Lending club default prediction\n\nloan.stats <- function() {\n  \n  dir <- \"Lending Club Data/\"\n  files <- list.files(dir, full.names = T)\n  l.stats <- files[str_detect(files, ignore.case(\"loanstats\"))]\n  \n  list.stats <- lapply(l.stats, \n                       function(x) \n                         read.csv(x, skip = 1, header = T, \n                                  stringsAsFactors = F))\n  \n  l.stats <- gsub(dir, \"\", l.stats)\n  names(list.stats) <- l.stats\n  \n  return(ldply(list.stats))\n  \n}\n\nloan.stats.df <- loan.stats()\n\nedit.lstats <- function(lstats = loan.stats.df) {\n  \n  lstats$loan_status <- ifelse(str_detect(lstats$loan_status, \"Status\"), \n                               substr(lstats$loan_status, \n                                      str_locate(lstats$loan_status, \"Status:\")[[2]] + 1,\n                                      nchar(lstats$loan_status)),\n                               lstats$loan_status)\n  \n  return(lstats)\n}\n\nggplot(x) + geom_bar(aes(x = loan_status, y = Total.Amount, fill = grade), stat = 'identity')",
+    "created" : 1410065432395.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "671314094",
+    "id" : "764B16DD",
+    "lastKnownWriteTime" : 1410056376,
+    "path" : "C:/Users/ali-kazim.zaidi/Dropbox/Projects/NYC Datascience Group/Event3/1. Lending Club.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

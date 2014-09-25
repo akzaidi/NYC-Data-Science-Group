@@ -1,0 +1,61 @@
+NYCDW Event 3 - The Lending Club Credit Risk Challenge
+
+--Background:
+
+The Lending Club is an online community where some people ("borrowers") can request loans and others ("investors") can provide money for those loans. The Lending Club allows members of the general public to collectively act like a bank in their role as investors, profiting from the interest payments on loans they provide.
+
+One of the cool features of the Lending Club is that it makes the (anonymized) data about  borrowers and loan payments available to the public. This provides us with a fascinating opportunity to see if we can predict who will pay their loans in full and who will default. In finance, this is the challenge of evaluating "credit risk."
+
+Several startups, including the Lending Club, depend on their ability to do a better job to predict credit risk than our shoddy credit scores can provide. Today, we'll see if we can do better than the Lending Club in assessing credit risk.
+
+In the Lending Club Data folder, you'll find five files.
+
+The data key:
+1) LCDataDictionary.xlsx or LCDataDictionary.pdf
+
+Three files contain the Lending Club's original borrower and loan payment histories:
+2) LoanStats2007to20011.csv
+3) LoanStats2012to2013.csv
+4) LoanStats2014.csv
+
+A file I have created that only contains data on 36-month loans from before 5/31/2011:
+5) loansOver.csv
+
+Because the Lending Club provides 3-year and 5-year loans, we're still waiting to see whether many of the loans will be paid in full. I have provided "loansOver.csv" so that you can study only the definitive outcomes of 3-year loans provided before 5/31/2011 (which must have been paid off by 5/31/2014) if you choose.
+
+--Challenges
+
+All challenges will be rated "easy", "medium" or "hard"
+
+1) The Lending Club grades people on their risk of paying 
+
+
+2) How well do these various factors enable us to predict whether or not people will pay off their loans?: 
+
+a) the borrower's income
+a) the size of the loans they have received
+b) the interest rate on those loans
+c) the length of time people have spent with their current employer
+d) whether or not people own, rent, or currently pay a mortgage on their homes
+
+Using the file "loansOver.csv", 
+
+study how the size of the loans people have received, the interest rate on their loans, their income, and the length of the time they have spent with their current employer affect whether they successfully paid off or defaulted on their loans.
+
+Keep in mind that the Lending Club determines the interest rate based on perceived risk that someone will pay off their loans. As a result, high interest rates could cause defaults or they could be correlated with defaults because high interest was required of people who seemed to be higher risk.
+
+You can find more information about this here: https://www.lendingclub.com/public/how-we-set-interest-rates.action
+
+This 
+2)
+
+
+
+
+
+
+
+
+
+
+
